@@ -1,19 +1,19 @@
 'use strict';
 
-function listChange() {
-  let mixedList = document.querySelector('ul');
-  
-}
-
-function changeForm(formEvnt) {
+function largeChange(formEvnt) {
   formEvnt.preventDefault();
-  let paragraphElements = document.querySelectorAll('p');
+  let changeFontColor = document.querySelector('#main-color').value;
+  let changeBackColor = document.querySelector('#colorChange').value;
+  let fontAdjustment = document.querySelector('#fontSize').value;
+  let allParagraphElements = document.querySelectorAll('p');
   
+  console.log(allParagraphElements);
 }
 
 function primary() {
-  let formSubmission = document.querySelector('#pythonForm');
-  formSubmission.addEventListener('submit', changeForm);
+  let pythonFormChange = document.querySelector('#pythonForm');
+  pythonFormChange.addEventListener('submit', largeChange);
+  largeChange();
 }
 
 primary();

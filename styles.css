@@ -12,3 +12,7 @@ body {
   border-radius: 10px;
 }
 
+#form-container {
+  display: flex;
+  flex-direction: column;
+}
