@@ -1,0 +1,14 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  background: #add8e6;
+}
+
+#pythonForm {
+  padding: 1.5em;
+  background: #d3d3d3;
+  border: 3px solid #ffffff;
+  border-radius: 10px;
+}
+
